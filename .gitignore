@@ -1,0 +1,70 @@
+# Node.js dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+server/logs/
+client/logs/
+
+# Environment variables (ignoring both client & server env files)
+client/.env
+server/.env
+
+# Build files
+dist/
+build/
+server/dist/
+server/build/
+client/dist/
+client/build/
+
+# Vite-specific
+client/.vite/
+client/.vercel/
+client/.output/
+
+# Next.js (if applicable)
+.next/
+out/
+
+# Parcel cache
+.cache/
+
+# Coverage files
+coverage/
+server/coverage/
+client/coverage/
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+dump.rdb
+*.pem
+
+# Misc
+.vercel/
+.vercel/project.json
+
+# Firebase & Supabase
+.firebase/
+functions/node_modules/
+supabase/.temp/
+supabase/migrations/
